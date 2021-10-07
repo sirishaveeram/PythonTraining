@@ -1,6 +1,6 @@
 (Q1). Create three variables in a single line and assign values to them in such a manner that each one of
 them belongs to a different data type.
-(ANSWER): a , b , c = 10 ,"siri" , 2.3
+(ANSWER): a , b , c = 10 , "siri" , 2.3
 (Q2) Create a variable of type complex and swap it with another variable of type integer.
 (ANSWER):
 x = 1 + 2j
@@ -11,11 +11,13 @@ y= temp
 print(x)
 print(y)
 
-output:2
+output:
+ 2
 (1+2j)
 
 (Q3). Swap two numbers using a third variable and do the same task without using any third variable.
-(ANSWER):Swapping two numbers using third variable:
+(ANSWER):
+Swapping two numbers using third variable:
 x=10
 y=20
 temp=x
@@ -74,7 +76,7 @@ a=10
 a="siri"
 print(a)
 output : siri
-Yes the value gets replaced...beacause variable 'a' is  not memory location its just reference
+Yes the value gets replaced...beacause variable 'a' is  not memory location its just reference.
 
 
 
