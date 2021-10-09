@@ -138,6 +138,9 @@ for i in x:
         l+=1
 print("letters",l)
 print("digit",d)
+(Q9.) Read the two parts of the question below:
+Write a program such that it asks users to “guess the lucky number”. If the correct number is guessed the program stops, otherwise it continues forever.
+(ANSWER)
 
 
      
