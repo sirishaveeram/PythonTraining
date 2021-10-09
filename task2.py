@@ -120,6 +120,25 @@ If user enters a positive number just continue in the loop and print “Good Goi
       count += 1
       if count >= 5:
            Break(SHOULD HAVE MENTIONED break)
+    (Q7.) Write a program that prints all the numbers from 0 to 6 except 3 and 6. Expected output: 0 1 2 4 5
+    (ANSWER)
+    for i in range(6):
+    if i == 3:
+        continue
+    print(i)
+(Q8.) Write a program that accepts a string as an input from the user and calculate the number of digits and letters.
+(ANSWER)
+x = input("enter string : ")
+d=0
+l=0
+for i in x:
+    if i.isdigit():
+        d+=1
+    elif i.isalpha():
+        l+=1
+print("letters",l)
+print("digit",d)
+
 
      
 
