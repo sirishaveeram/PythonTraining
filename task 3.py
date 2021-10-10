@@ -48,6 +48,11 @@ for x in p:
 5
 (Q6:) Create a list of elements such that it contains the squares of the first and last 5 elements between 1 and30 (both included).
 (Answer):
+p=list(range(1,31))
+print(p)
+x=print(p[0:5])
+y=print(p[-5:])
+
 (Q7:)Write a program to replace the last element in a list with another list. Sample input: [1,3,5,7,9,10], [2,4,6,8]
 Expected output: [1,3,5,7,9,2,4,6,8]
 (Answer:)old = [1, 3, 5, 9, 10]
