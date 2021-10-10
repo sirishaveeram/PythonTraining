@@ -98,7 +98,17 @@ print(a)
 print(a.items())
  (Q10:)Write a program which accepts a sequence of comma-separated numbers from console and generates a list and a tuple which contains every number in the form of string.
   (ANSWER:)       
-         
+x= input("enter values:")
+y=x.split(",")
+#print(y)
+list = []
+#tuple=()
+for i in y:
+    list.append(i)
+    tup = tuple(list)
+print(list)
+print(tup)
+
          
          
          
