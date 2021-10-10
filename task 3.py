@@ -76,7 +76,29 @@ add=old+new
 print(add)
 add.remove(10)
 print(add)
-(Q8:)
+(Q8:)Create a new dictionary by concatenating the following two dictionaries:
+(ANSWER:)
+ a = {1: 10, 2: 20}
+b = {3: 30, 4: 40}
+a.update(b)
+print(a)
+         output::{1: 10, 2: 20, 3: 30, 4: 40}
+ (Q9:)Create a dictionary that contain numbers in the form(x:x*x) where x takes all the values between 1 and n(both 1 and n included).
+         a={}
+a[1]=1*1
+print(a)
+a[2]=2*2
+print(a)
+a[3]=3*3
+print(a)
+a[4]=4*4
+print(a)
+a[5]=5*5
+print(a)
+print(a.items())
+ (Q10:)Write a program which accepts a sequence of comma-separated numbers from console and generates a list and a tuple which contains every number in the form of string.
+  (ANSWER:)       
+         
          
          
          
