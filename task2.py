@@ -141,6 +141,18 @@ print("digit",d)
 (Q9.) Read the two parts of the question below:
 Write a program such that it asks users to “guess the lucky number”. If the correct number is guessed the program stops, otherwise it continues forever.
 (ANSWER)
+x=6
+while True:
+    y=int(input("enter value:"))
+    if y==x:
+      print("number is matching:")
+      break
+    else:
+        print("number guessed not  matched:")
+        
+(Q10.) Write a program that asks five times to guess the lucky number. Use a while loop and a counter, such as
+(ANSWER:)
+        
 
 
      
