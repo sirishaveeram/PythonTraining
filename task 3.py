@@ -8,3 +8,65 @@ print(p[0:3])
 (output:)[1, 'siri', (1+2j)]
 (Q3.) Write a program to get the sum and multiply of all the items in a given list.
 (ANSWER:)
+p = [2, 3, 4, 5]
+sum = sum(p)
+print(sum)
+result = math.prod(p)
+print((result))
+(Q3:) Find the largest and smallest number from a given list.
+(ANSWER:)
+import math
+l=[1,2,3,4]
+sum=sum(l)
+print(sum)
+result=math.prod(l)
+print(result)
+output:10
+24
+(Q4:) Find the largest and smallest number from a given list.
+p = [2, 3,8 ,4,10,30, 1,5]
+p.sort()
+print(p)
+print("largest element in list: ", p[-1])
+print("smallest element in list:",p[0])
+(output)([1, 2, 3, 4, 5, 8, 10, 30]
+largest element in list:  30
+smallest element in list: 1
+
+(Q5:)Create a new list which contains the specified numbers after removing the even numbers from a predefined list.
+(ANSWER:)
+         p = [2, 3, 8, 4, 10, 30, 1, 5]
+p.sort()
+print(p)
+for x in p:
+    if x % 2 != 0:
+        print(x)
+(OUTPUT)
+         [1, 2, 3, 4, 5, 8, 10, 30]
+1
+3
+5
+(Q6:) Create a list of elements such that it contains the squares of the first and last 5 elements between 1 and30 (both included).
+(Answer):
+(Q7:)Write a program to replace the last element in a list with another list. Sample input: [1,3,5,7,9,10], [2,4,6,8]
+Expected output: [1,3,5,7,9,2,4,6,8]
+(Answer:)old = [1, 3, 5, 9, 10]
+new=[2,4,6,8]
+add=old+new
+print(add)
+add.remove(10)
+print(add)
+(Q8:)
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
