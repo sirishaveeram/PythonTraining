@@ -95,6 +95,16 @@ If user enters a positive number just continue in the loop and print “Good Goi
     print("Good Going: ")
      continue
 (Q5). Write a program in Python which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200.
+(ANSWER:)
+x=int(input("enter value between 2000 and 3200: "))
+if x%7==0 and x%5!=0:
+    print("value divisable by 7 and not multiple of 5:")
+elif x%7==0:
+    print("value divisable by 7 :")
+elif x%5!=0:
+    print("value  not multiple of 5:")
+else:
+    print("entered value not between 2000 and 3200:")
 (Q6).What is the output of the following code examples?
    A) x=123
    for i in x:
@@ -119,7 +129,7 @@ If user enters a positive number just continue in the loop and print “Good Goi
       print(count)
       count += 1
       if count >= 5:
-           Break(SHOULD HAVE MENTIONED break)
+           Break(SHOULD HAVE MENTIONED break)(BREAK IS NOT IDENTIFIED)
     (Q7.) Write a program that prints all the numbers from 0 to 6 except 3 and 6. Expected output: 0 1 2 4 5
     (ANSWER)
     for i in range(6):
@@ -151,7 +161,28 @@ while True:
         print("number guessed not  matched:")
         
 (Q10.) Write a program that asks five times to guess the lucky number. Use a while loop and a counter, such as
-(ANSWER:)
+(ANSWER:)counter=1
+while  counter <= 5:
+    x=int(input("enter guessed number:"))
+    if x==counter:
+        print("good guess")
+    else:
+        print("try again")
+        print("Type in the", counter, "number")
+    counter = counter + 1
+print("game over")
+(Q11.) In the previous question, insert break after the “Good guess!” print statement. break will terminate the while loop so that users do not have to continue guessing after they found the number. If the user does not guess the number at all, print “Sorry but that was not very successful”.
+(ANSWER.)
+counter=1
+while  counter <= 5:
+    x=int(input("enter guessed number:"))
+    if x==counter:
+        print("good guess")
+        break
+    counter = counter + 1
+else:
+    print("Sorry but that was not very successful")
+
         
 
 
