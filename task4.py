@@ -1,1 +1,17 @@
+(Q1:) Write a program to reverse a string. Sample input: “1234abcd”
+mystring = input("enter string:")
+backwards = mystring[::-1]
+print(backwards)
+(Q2:)Write a function that accepts a string and prints the number of uppercase letters and lowercase letters.
+(ANSWER:)
+mystring = input("enter string:")
+j=0
+count=0
+for i in mystring:
+    if i.islower():
+        j=j+1
+    elif i.isupper():
+        count=count+1
+print("number of lowercase in character ",j)
+print("number of uppercase in charcter",count)
 
