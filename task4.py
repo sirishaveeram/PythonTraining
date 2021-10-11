@@ -14,4 +14,5 @@ for i in mystring:
         count=count+1
 print("number of lowercase in character ",j)
 print("number of uppercase in charcter",count)
+(Q3.) Create a function that takes a list and returns a new list with unique elements of the first list.
 
