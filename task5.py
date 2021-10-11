@@ -2,11 +2,11 @@
 (ANSWER:)
 try:
     x = input("Enter number: ")
-    x = x + 1
+    x = y + 1
     print(x)
 
-except:
-    print("Invalid input")
+except Syntaxerror:
+    print("syntaxerror")
 (Q2)Write a program in Python to allow the user to open a file by using the argv module. If the entered name is incorrect throw an exception and ask them to enter the name again. Make sure to use read only mode.
 import sys
 
@@ -38,7 +38,7 @@ print(f.read(3))
 print(f.read(4))
 f.close()
 output:
-    Hello
+ Hello
  I 
 am
  a 
