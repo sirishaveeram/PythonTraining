@@ -15,4 +15,16 @@ for i in mystring:
 print("number of lowercase in character ",j)
 print("number of uppercase in charcter",count)
 (Q3.) Create a function that takes a list and returns a new list with unique elements of the first list.
+(ANSWERS:)
+def new():
+    l = [1, "siri",2.4,1,2,4,2.4,"siri"]
+    print(l)
+    l=list(set(l))
+    print("the list having unique values",l)
+new()
+
+
+
+
+
 
