@@ -38,6 +38,16 @@ the list having unique values [1, 2, 2.4, 3, 4, 'siri']
 (Q4.) Write a program that accepts a hyphen-separated sequence of words as input and prints the words
 in a hyphen-separated sequence after sorting them alphabetically.
  (ANSWER:)
+(Q6.)Define a function that can receive two integral numbers in string form and compute their sum and print it in the console.
+(ANSWER:)
+def addition(first, second):
+    return int(first) + int(second)
+firstNumber = "200"
+secondNumber = "400"
+
+print(addition(firstNumber, secondNumber))
+(OUTPUT:)600
+
 
 
 
