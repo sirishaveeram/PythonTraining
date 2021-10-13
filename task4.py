@@ -26,13 +26,14 @@ number of uppercase in charcter 15
 
 (Q3.) Create a function that takes a list and returns a new list with unique elements of the first list.
 (ANSWERS:)
-def unique_list(old_list):
-    new_list=[]
-    for i in old_list:
-        if i not in new_list:
-            new_list.append(i)
-    return new_list
+def unique_list(first_list):
+    second_list=[]
+    for i in first_list:
+        if i not in second_list:
+            second_list.append(i)
+    return second_list
 print(unique_list([1,2,"siri",4,5,5,"siri"]))
+
 (OUTPUT:)[1, 2, 'siri', 4, 5]
  
 the list having unique values [1, 2, 2.4, 3, 4, 'siri']
