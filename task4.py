@@ -40,6 +40,30 @@ the list having unique values [1, 2, 2.4, 3, 4, 'siri']
 (Q4.) Write a program that accepts a hyphen-separated sequence of words as input and prints the words
 in a hyphen-separated sequence after sorting them alphabetically.
  (ANSWER:)
+(Q5.) Write a program that accepts a sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
+x = input("Enter String: ")
+count = 0
+j = 0
+
+for i in x:
+    if i.islower():
+        print(i.upper())
+        count = count + 1
+
+    elif i.isupper():
+        print(i.upper())
+        j = j + 1
+  (OUTPUT:)Enter String: this is me
+T
+H
+I
+S
+I
+S
+M
+E
+
+
 (Q6.)Define a function that can receive two integral numbers in string form and compute their sum and print it in the console.
 (ANSWER:)
 def add(first,second):
@@ -47,6 +71,23 @@ def add(first,second):
      return sum
 print(add(20,30))
 (OUTPUT:)50
+(Q7.) Define a function that can accept two strings as input and print the string with the maximum length in the console. If two strings have the same length, then the function should print both the strings line by line.
+(ANSWER:)def strings(fstring, lstring):
+    len_string1 = len(fstring)
+    len_string2 = len(lstring)
+    output = ""
+    if len_string1 == len_string2:
+        output = fstring + '\n' + lstring
+    elif len_string1 >= len_string2:
+        output = fstring
+    elif len_string1 <= len_string2:
+        output = lstring
+    return output
+print(strings("siri", "siri"))
+(OUTPUT:)
+A)siri
+siri
+
 
 
 
