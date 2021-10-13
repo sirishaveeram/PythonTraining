@@ -87,6 +87,21 @@ print(strings("siri", "siri"))
 (OUTPUT:)
 A)siri
 siri
+(Q8:)
+(Q9:) Write a function called showNumbers that takes a parameter called limit. It should print all the numbers between 0 and limit with a label to identify the even and odd numbers.
+(ANSWER:)def showNumbers(limit):
+    for i in range(limit+1):
+        if i%2==0:
+            print("{0}  Even".format(i))
+        else:
+            print("{0}  odd".format(i))
+    return
+showNumbers(3)
+(OUTPUT:)
+0  Even
+1  odd
+2  Even
+3  odd
 
 
 
