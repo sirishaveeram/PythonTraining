@@ -107,7 +107,7 @@ for i in y:
     list.append(i)
     tup = tuple(list)
 print(list)
-print(tup)
+print(tup).
 
          
          
