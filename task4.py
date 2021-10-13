@@ -26,27 +26,26 @@ number of uppercase in charcter 15
 
 (Q3.) Create a function that takes a list and returns a new list with unique elements of the first list.
 (ANSWERS:)
-def new():
-    l = [1, "siri",2.4,1,2,4,2.4,"siri"]
-    print(l)
-    l=list(set(l))
-    print("the list having unique values",l)
-new()
-(OUTPUT:)
-[1, 3, 'siri', 2.4, 1, 2, 4, 2.4, 'siri', 3]
+def unique_list(old_list):
+    new_list=[]
+    for i in old_list:
+        if i not in new_list:
+            new_list.append(i)
+    return new_list
+print(unique_list([1,2,"siri",4,5,5,"siri"]))
+(OUTPUT:)[1, 2, 'siri', 4, 5]
+ 
 the list having unique values [1, 2, 2.4, 3, 4, 'siri']
 (Q4.) Write a program that accepts a hyphen-separated sequence of words as input and prints the words
 in a hyphen-separated sequence after sorting them alphabetically.
  (ANSWER:)
 (Q6.)Define a function that can receive two integral numbers in string form and compute their sum and print it in the console.
 (ANSWER:)
-def addition(first, second):
-    return int(first) + int(second)
-firstNumber = "200"
-secondNumber = "400"
-
-print(addition(firstNumber, secondNumber))
-(OUTPUT:)600
+def add(first,second):
+     sum=int(first)+int(second)
+     return sum
+print(add(20,30))
+(OUTPUT:)50
 
 
 
