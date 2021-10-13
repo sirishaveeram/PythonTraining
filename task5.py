@@ -42,6 +42,6 @@ output:
  I 
 am
  a 
-file
+file.
 
  
