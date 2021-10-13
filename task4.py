@@ -87,9 +87,22 @@ print(strings("siri", "siri"))
 (OUTPUT:)
 A)siri
 siri
-(Q8:)
+(Q8:)Define a function which can generate and print a tuple where the values are square of numbers between 1 and 20 (both 1 and 20 included).
+(ANSWER:)
+def squaretuple():
+    l = list()
+    for i in range(1, 21):
+        l.append(i ** 2)
+    return tuple(l)
+
+l = squaretuple()
+print(l)
+(OUTPUT)(1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400)
+
+
 (Q9:) Write a function called showNumbers that takes a parameter called limit. It should print all the numbers between 0 and limit with a label to identify the even and odd numbers.
-(ANSWER:)def showNumbers(limit):
+(ANSWER:)
+def showNumbers(limit):
     for i in range(limit+1):
         if i%2==0:
             print("{0}  Even".format(i))
@@ -102,6 +115,8 @@ showNumbers(3)
 1  odd
 2  Even
 3  odd
+(Q10:)10. Write a program which uses filter() to make a list whose elements are even numbers between 1 and 20 (both included)
+(ANSWER:)
 
 
 
@@ -109,6 +124,6 @@ showNumbers(3)
 
 
 
-n
+
 
 
