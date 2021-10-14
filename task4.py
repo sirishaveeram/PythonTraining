@@ -185,7 +185,7 @@ def a():
 
 (OUTPUT:)  
 f(x, 4)
-NameError: name 'f' is not defined
+NameError: name 'f' is not defined.
 
 
 
