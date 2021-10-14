@@ -149,7 +149,20 @@ print(list(x))
 (OUTPUT)[7, 14, 28]
 (Q15.)Write a program in Python to multiply the elements of a list by itself using a traditional function and pass the function to map() to complete the operation.
 (ANSWER:)
+l = [1, 3, 4]
+k = []
+for i in l:
+    k = i * i
+    print(k)
+new_var=map(lambda k:k*k,l)
+print(list(new_var))
+
 (OUTPUT)
+1
+9
+16
+[1, 9, 16]
+
 (Q16)(I)
 def foo():
     try:
