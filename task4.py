@@ -128,13 +128,49 @@ print(list(x))
 (OUTPUT:)
 [4, 16, 36, 64, 100]
 (Q12:)Write a function to compute 5/0 and use try/except to catch the exceptions
-(ANSWER:)
+(ANSWER:)def div():
+    return 5/0
+    try:div()
+    except ZeroDivisionError :
+        print ("ZeroDivisionError")
+
 (OUTPUT:)
 (Q13.) Flatten the list [1,2,3,4,5,6,7] into 1234567 using reduce().
 (ANSWER:)
 (OUTPUT:)
+(Q14)14. Write a program in Python to find the values which are not divisible by 3 but are a multiple of 7.
+Make sure to use only higher order functions.
+(ANSWER:)
+li = range(30)
+x = filter(lambda a: a % 3 != 0 and a % 7 == 0, li)
+print(list(x))
+(OUTPUT)[7, 14, 28]
+(Q15.)
+(ANSWER:)
+(OUTPUT)
+(Q16)(I)
+def foo():
+    try:
+        return 1
 
+    finally:
+        return 2
+    k=foo()
+    print(k)
+(OUTPUT)
+Process finished with exit code 0(no error because of infinite loop)
+(II)
+def a():
+    try:
+        f(x, 4)
+    finally:
+            print('after f')
+            print('after f?') 
+    a()
 
+(OUTPUT:)  
+f(x, 4)
+NameError: name 'f' is not defined
 
 
 
