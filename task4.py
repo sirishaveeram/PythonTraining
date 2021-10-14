@@ -117,6 +117,24 @@ showNumbers(3)
 3  odd
 (Q10:)10. Write a program which uses filter() to make a list whose elements are even numbers between 1 and 20 (both included)
 (ANSWER:)
+x=filter(lambda x:x%2==0,range(0,21))
+print(list(x))
+(OUTPUT:)[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+(Q11:)Write a program which uses map() and filter() to make a list whose elements are squares of even numbers in [1,2,3,4,5,6,7,8,9,10].
+(ANSWER:)
+new=[1,2,3,4,5,6,7,8,9,10]
+x=map(lambda a:a**2,filter (lambda a:a%2==0,new))
+print(list(x))
+(OUTPUT:)
+[4, 16, 36, 64, 100]
+(Q12:)Write a function to compute 5/0 and use try/except to catch the exceptions
+(ANSWER:)
+(OUTPUT:)
+(Q13.) Flatten the list [1,2,3,4,5,6,7] into 1234567 using reduce().
+(ANSWER:)
+(OUTPUT:)
+
+
 
 
 
