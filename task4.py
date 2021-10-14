@@ -134,10 +134,12 @@ print(list(x))
     except ZeroDivisionError :
         print ("ZeroDivisionError")
 
-(OUTPUT:)
+(OUTPUT:)Process finished with exit code 0
 (Q13.) Flatten the list [1,2,3,4,5,6,7] into 1234567 using reduce().
-(ANSWER:)
-(OUTPUT:)
+(ANSWER:)from functools import reduce
+x = reduce(lambda x,y:10*x+y,[1,2,3,4,5,6,7])
+print(x)
+(OUTPUT:)1234567
 (Q14)14. Write a program in Python to find the values which are not divisible by 3 but are a multiple of 7.
 Make sure to use only higher order functions.
 (ANSWER:)
@@ -145,7 +147,7 @@ li = range(30)
 x = filter(lambda a: a % 3 != 0 and a % 7 == 0, li)
 print(list(x))
 (OUTPUT)[7, 14, 28]
-(Q15.)
+(Q15.)Write a program in Python to multiply the elements of a list by itself using a traditional function and pass the function to map() to complete the operation.
 (ANSWER:)
 (OUTPUT)
 (Q16)(I)
