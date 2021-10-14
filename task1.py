@@ -76,7 +76,7 @@ a=10
 a="siri"
 print(a)
 output : siri
-Yes the value gets replaced...beacause variable 'a' is  not memory location its just reference
+Yes the value gets replaced...beacause variable 'a' is  not memory location its just reference.
 
 
 
