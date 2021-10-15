@@ -16,5 +16,14 @@ print(x)
 original values :['Smit', 'Jaya', 'Rayyan']
 original values :['CSE', 'Networking', 'Operating System']
 {'Smit': 'CSE', 'Jaya': 'Networking', 'Rayyan': 'Operating System'}
+(Q4:)Learn More about Yield, next and Generators
+(ANSWER:)
+(Q5:)4. Write a program in Python using generators to reverse the string.
+Input String = “Consultadd Training”
+(ANSWER:)
+(OUTPUT)
+(Q5) Write an example on decorators.
+(ANSWER:)
+(OUTPUT:)
 
 
