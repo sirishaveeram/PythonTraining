@@ -34,7 +34,31 @@ for rev_string  in new_string("Consultadd training"):
     print(rev_string)
 (OUTPUT)gniniart ddatlusnoC
 (Q5) Write an example on decorators.
-(ANSWER:)
+(ANSWER:)(EX1)inner functions:
+def add():
+    print("perform adition")
+    def sub():
+        print("perform subtraction")
+    def mul():
+        print("perform mulitplication")
+add()
+sub=add()
 (OUTPUT:)
+perform adition
+perform adition
+(EX2)def my_decorator(func):
+    def wrapper():
+        print("Something is happening before the function is called.")
+        func()
+        print("Something is happening after the function is called.")
+
+    return wrapper
+
+def new():
+    print("this is new")
+
+new= my_decorator(new)
+print(new())
+
 
 
