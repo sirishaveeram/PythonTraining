@@ -26,6 +26,12 @@ def new_string(x):
 rev_string=new_string("Consultadd training")
 k = next(rev_string)
 print(k)
+or
+def new_string(x):
+    yield x[::-1]
+
+for rev_string  in new_string("Consultadd training"):
+    print(rev_string)
 (OUTPUT)gniniart ddatlusnoC
 (Q5) Write an example on decorators.
 (ANSWER:)
