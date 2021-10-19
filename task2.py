@@ -96,7 +96,7 @@ If user enters a positive number just continue in the loop and print “Good Goi
      continue
 (Q5). Write a program in Python which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200.
 (ANSWER:)
-x=int(input("enter value between 2000 and 3200: "))
+x=int(input("enter value between 2000 and 3201: "))
 if x%7==0 and x%5!=0:
     print("value divisable by 7 and not multiple of 5:")
 elif x%7==0:
@@ -104,7 +104,7 @@ elif x%7==0:
 elif x%5!=0:
     print("value  not multiple of 5:")
 else:
-    print("entered value not between 2000 and 3200:")
+    print("entered value not between 2000 and 3201:")
 (Q6).What is the output of the following code examples?
    A) x=123
    for i in x:
@@ -151,6 +151,9 @@ print("digit",d)
 (Q9.) Read the two parts of the question below:
 Write a program such that it asks users to “guess the lucky number”. If the correct number is guessed the program stops, otherwise it continues forever.
 (ANSWER)
+import random
+x=input
+y=random.randint[]
 x=6
 while True:
     y=int(input("enter value:"))
