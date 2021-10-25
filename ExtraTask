@@ -8,7 +8,7 @@ Access list: [ ]
 (ANSWER:)
 print(x[5][0:4])
 print(x[-3:-1])
-print(x[0:5])
+print(x[::2])
 print(x[::-1])
 print(list())
 (Q2)2. Create a list of thousand numbers using range and xrange and see the difference between each other.
@@ -20,5 +20,46 @@ for i in xrange(1000):
     print(i)
 (OUTPUT:)name 'xrange' is not defined
 (Q3:)3. How Tuple is beneficial as compared to the list?
+(Answer:)Tuples are immutable so, It doesn't require extra space to store new objects and hence are memory efficient.
+Tuples are faster than lists, because they have a constant set of values.
 (Q4:)Write a program in Python to iterate through the list of numbers in the range of 1,100 and print
 the number which is divisible by 3 and is a multiple of 2.
+(Answer:)
+list = [x for x in range(1,100) if x%3==0 and x%2==0]
+print(list)
+(OUTPUT:)6,12,18,24,30,36,42,48,54,60,66,72,78,84,90,96,
+(Q5:) Write a program in Python to reverse a string and print only the vowel alphabet if it exists in the string with their index.
+(OUTPUT:)
+str=input("enter string:")
+backstr=str[::-1]
+print(backstr)
+for i in backstr:
+    if i  not in "aeiouAEIOU":
+        print(i,end=',')
+(OUTPUT:)
+enter string:SIRIshaUserON
+NOresUahsIRIS
+N,r,s,h,s,R,S,
+(Q6:) Write a program in Python to iterate through the string “hello my name is abcde” and print the string which is having an even length.
+(ANSWER:)
+(OUTPUT:)
+(Q7:)Write a program in python to print the pair of numbers whose sum is equal to the result number that is let's say 8.
+x=[1,2,3,4,5,6,7,8,9,-1]
+
+(ANSWER:)
+(OUTPUT:)
+(Q8:)
+(ANSWER:)
+(OUTPUT:)
+(Q9:)
+(ANSWER:)
+(OUTPUT:)
+(Q10:)Generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10).
+(ANSWER:)
+i=tuple(x for x in range(1,11) if x%2==0)
+print(i)
+print((type(i)))
+(OUTPUT:)
+(2, 4, 6, 8, 10)
+<class 'tuple'>
+
