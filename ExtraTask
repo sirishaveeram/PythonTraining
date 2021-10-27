@@ -43,8 +43,16 @@ enter string:sirireddyyou
 uoyydderiris
 ['u'],['o'],['e'],['i'],['i'],
 (Q6:) Write a program in Python to iterate through the string “hello my name is abcde” and print the string which is having an even length.
-(ANSWER:)
+(ANSWER:)str="hello my name is sirisha"
+
+for i in str.split():
+    if len(i) % 2==0:
+        print(i)
+
 (OUTPUT:)
+my
+name
+is
 (Q7:)Write a program in python to print the pair of numbers whose sum is equal to the result number that is let's say 8.
 x=[1,2,3,4,5,6,7,8,9,-1]
 
