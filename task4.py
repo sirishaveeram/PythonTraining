@@ -40,6 +40,16 @@ the list having unique values [1, 2, 2.4, 3, 4, 'siri']
 (Q4.) Write a program that accepts a hyphen-separated sequence of words as input and prints the words
 in a hyphen-separated sequence after sorting them alphabetically.
  (ANSWER:)
+print("enter string")
+x=[n for n in input().split('-')]
+x.sort()
+print("sorted:")
+print('-'.join(x))
+(outpit:)
+apple-raw-book
+sorted:
+apple-book-raw
+
 (Q5.) Write a program that accepts a sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
 x = input("Enter String: ")
 count = 0
