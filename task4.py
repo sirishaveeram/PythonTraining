@@ -40,8 +40,8 @@ the list having unique values [1, 2, 2.4, 3, 4, 'siri']
 (Q4.) Write a program that accepts a hyphen-separated sequence of words as input and prints the words
 in a hyphen-separated sequence after sorting them alphabetically.
  (ANSWER:)
-print("enter string")
-x=[n for n in input().split('-')]
+y=input("enter string")
+x=[n for n in y.split('-')]
 x.sort()
 print("sorted:")
 print('-'.join(x))
